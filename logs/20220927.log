@@ -1,0 +1,2777 @@
+2022-09-27 10:28:32,394 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 10:28:32,394 - root - INFO - 接口请求方式: GET
+2022-09-27 10:28:32,394 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 10:28:32,422 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 10:28:33,424 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 10:28:33,428 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 10:28:34,233 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 10:28:34,234 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 10:30:58,659 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 10:30:58,660 - root - INFO - 接口请求方式: GET
+2022-09-27 10:30:58,660 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 10:30:58,684 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 10:30:59,533 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 10:30:59,540 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 10:31:00,385 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 10:31:00,386 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 10:31:00,386 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 10:31:00,386 - root - INFO - 接口请求方式: GET
+2022-09-27 10:31:00,386 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 10:31:00,389 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 10:31:01,307 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 10:31:01,308 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 10:31:47,668 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 10:31:47,668 - root - INFO - 接口请求方式: GET
+2022-09-27 10:31:47,668 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 10:31:47,714 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 10:31:48,611 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 10:31:48,617 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 10:31:49,450 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 10:31:49,451 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 10:31:49,451 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 10:31:49,451 - root - INFO - 接口请求方式: GET
+2022-09-27 10:31:49,451 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 10:31:49,454 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 10:31:50,276 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 10:31:50,276 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 10:33:15,743 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 10:33:15,743 - root - INFO - 接口请求方式: GET
+2022-09-27 10:33:15,743 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 10:33:15,768 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 10:33:16,613 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 10:33:16,618 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 10:33:17,495 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 10:33:17,496 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 10:33:17,496 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 10:33:17,497 - root - INFO - 接口请求方式: GET
+2022-09-27 10:33:17,497 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 10:33:17,500 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 10:33:18,303 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 10:33:18,304 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 10:33:18,304 - root - WARNING - {'sessioncookie': '123456789'}
+2022-09-27 10:36:49,880 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 10:36:49,881 - root - INFO - 接口请求方式: GET
+2022-09-27 10:36:49,881 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 10:36:49,909 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 10:36:50,898 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 10:36:50,902 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 10:36:51,813 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 10:36:51,814 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 10:36:51,815 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 10:36:51,815 - root - INFO - 接口请求方式: GET
+2022-09-27 10:36:51,815 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 10:36:51,818 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 10:36:52,843 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 10:36:52,845 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 10:36:52,845 - root - WARNING - {}
+2022-09-27 10:42:30,558 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 10:42:30,560 - root - INFO - 接口请求方式: GET
+2022-09-27 10:42:30,561 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 10:42:30,587 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 10:42:31,468 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 10:42:31,472 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 10:42:32,266 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 10:42:32,267 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 10:42:32,267 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 10:42:32,267 - root - INFO - 接口请求方式: GET
+2022-09-27 10:42:32,267 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 10:42:32,270 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 10:42:33,107 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 10:42:33,107 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 10:42:33,108 - root - WARNING - {}
+2022-09-27 10:42:33,108 - root - INFO - cookie状态不保存场景
+2022-09-27 10:42:33,113 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 10:42:33,113 - root - INFO - 接口请求方式: GET
+2022-09-27 10:42:33,113 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 10:42:33,116 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 10:42:33,923 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 10:42:33,927 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 10:42:35,151 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 10:42:35,152 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 10:42:35,152 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 10:42:35,152 - root - INFO - 接口请求方式: GET
+2022-09-27 10:42:35,152 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 10:42:35,155 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 10:42:35,975 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 10:42:35,975 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 10:42:35,976 - root - WARNING - {'sessioncookie': '123456789'}
+2022-09-27 10:45:22,961 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 10:45:22,961 - root - INFO - 接口请求方式: GET
+2022-09-27 10:45:22,962 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 10:45:22,984 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 10:45:23,907 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 10:45:23,911 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 10:45:24,714 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 10:45:24,715 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 10:45:24,715 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 10:45:24,715 - root - INFO - 接口请求方式: GET
+2022-09-27 10:45:24,715 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 10:45:24,717 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 10:45:25,544 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 10:45:25,545 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 10:45:25,545 - root - WARNING - {}
+2022-09-27 10:45:25,545 - root - INFO - cookie状态不保存场景
+2022-09-27 10:45:25,549 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 10:45:25,550 - root - INFO - 接口请求方式: GET
+2022-09-27 10:45:25,550 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 10:45:25,553 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 10:45:26,356 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 10:45:26,359 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 10:45:27,182 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 10:45:27,183 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 10:45:27,183 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 10:45:27,183 - root - INFO - 接口请求方式: GET
+2022-09-27 10:45:27,183 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 10:45:27,185 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 10:45:28,004 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 10:45:28,004 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 10:45:28,005 - root - WARNING - {'sessioncookie': '123456789'}
+2022-09-27 11:03:17,157 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 11:03:17,157 - root - INFO - 接口请求方式: GET
+2022-09-27 11:03:17,157 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 11:03:17,183 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 11:03:18,271 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 11:03:18,275 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 11:03:19,284 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 11:03:19,285 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 11:03:19,286 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 11:03:19,286 - root - INFO - 接口请求方式: GET
+2022-09-27 11:03:19,286 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 11:03:19,288 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 11:03:20,524 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 11:03:20,525 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 11:03:20,525 - root - WARNING - {}
+2022-09-27 11:03:20,525 - root - INFO - cookie状态不保存场景
+2022-09-27 11:04:04,020 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 11:04:04,020 - root - INFO - 接口请求方式: GET
+2022-09-27 11:04:04,020 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 11:04:04,042 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 11:04:04,860 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 11:04:04,865 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 11:04:05,706 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 11:04:05,707 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 11:04:05,707 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 11:04:05,707 - root - INFO - 接口请求方式: GET
+2022-09-27 11:04:05,707 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 11:04:05,710 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 11:04:07,190 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 11:04:07,190 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 11:04:07,190 - root - WARNING - {'sessioncookie': '123456789'}
+2022-09-27 11:10:05,230 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 11:10:05,231 - root - INFO - 接口请求方式: GET
+2022-09-27 11:10:05,231 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 11:10:05,253 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 11:10:06,073 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 11:10:06,077 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 11:10:06,875 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 11:10:06,876 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 11:10:06,876 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 11:10:06,876 - root - INFO - 接口请求方式: GET
+2022-09-27 11:10:06,876 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 11:10:06,879 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 11:10:08,016 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 11:10:08,017 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 11:10:08,017 - root - WARNING - {}
+2022-09-27 11:10:08,017 - root - INFO - cookie状态不保存场景
+2022-09-27 11:10:08,022 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 11:10:08,023 - root - INFO - 接口请求方式: GET
+2022-09-27 11:10:08,023 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 11:10:08,026 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 11:10:08,844 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 11:10:08,847 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 11:10:10,169 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 11:10:10,170 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 11:10:10,170 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 11:10:10,170 - root - INFO - 接口请求方式: GET
+2022-09-27 11:10:10,171 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 11:10:10,173 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 11:10:10,978 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 11:10:10,979 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 11:10:10,979 - root - WARNING - {'sessioncookie': '123456789'}
+2022-09-27 11:10:25,911 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 11:10:25,912 - root - INFO - 接口请求方式: GET
+2022-09-27 11:10:25,912 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 11:10:25,922 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 11:10:26,753 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 11:10:26,756 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 11:10:28,191 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 11:10:28,192 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 11:10:28,192 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 11:10:28,192 - root - INFO - 接口请求方式: GET
+2022-09-27 11:10:28,192 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 11:10:28,194 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 11:10:29,112 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 11:10:29,113 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 11:10:29,113 - root - WARNING - {}
+2022-09-27 11:10:29,113 - root - INFO - cookie状态不保存场景
+2022-09-27 11:10:29,117 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 11:10:29,117 - root - INFO - 接口请求方式: GET
+2022-09-27 11:10:29,117 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 11:10:29,120 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 11:10:30,546 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 11:10:30,551 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 11:10:31,969 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 11:10:31,970 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 11:10:31,970 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 11:10:31,970 - root - INFO - 接口请求方式: GET
+2022-09-27 11:10:31,970 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 11:10:31,972 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 11:10:33,311 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 11:10:33,312 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 11:10:33,312 - root - WARNING - {'sessioncookie': '123456789'}
+2022-09-27 12:30:46,665 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 12:30:47,711 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 12:30:47,715 - root - INFO - 接口请求地址: https://api.github.com/user
+2022-09-27 12:30:47,716 - root - INFO - 接口请求方式: GET
+2022-09-27 12:30:47,716 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 12:30:47,718 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 12:30:49,734 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 12:30:49,736 - root - INFO - 返回信息:
+{"message":"Requires authentication","documentation_url":"https://docs.github.com/rest/reference/users#get-the-authenticated-user"}
+2022-09-27 12:30:49,738 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-27 12:30:49,738 - root - INFO - 接口请求方式: GET
+2022-09-27 12:30:49,738 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 12:30:49,749 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-27 12:30:51,739 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-27 12:30:51,741 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-27 12:30:51,743 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 12:30:51,743 - root - INFO - 接口请求方式: GET
+2022-09-27 12:30:51,743 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 12:30:51,748 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 12:30:52,569 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 12:30:52,572 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 12:30:53,794 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 12:30:53,795 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 12:30:53,795 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 12:30:53,795 - root - INFO - 接口请求方式: GET
+2022-09-27 12:30:53,796 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 12:30:53,798 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 12:30:54,819 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 12:30:54,819 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 12:30:54,820 - root - WARNING - {}
+2022-09-27 12:30:54,820 - root - INFO - cookie状态不保存场景
+2022-09-27 12:30:54,823 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 12:30:54,823 - root - INFO - 接口请求方式: GET
+2022-09-27 12:30:54,823 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 12:30:54,826 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 12:30:56,663 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 12:30:56,667 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 12:30:57,686 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 12:30:57,687 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 12:30:57,687 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 12:30:57,687 - root - INFO - 接口请求方式: GET
+2022-09-27 12:30:57,687 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 12:30:57,689 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 12:30:58,505 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 12:30:58,506 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 12:30:58,506 - root - WARNING - {'sessioncookie': '123456789'}
+2022-09-27 12:31:26,536 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 12:31:27,584 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 12:31:27,587 - root - INFO - 接口请求地址: https://api.github.com/user
+2022-09-27 12:31:27,587 - root - INFO - 接口请求方式: GET
+2022-09-27 12:31:27,588 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 12:31:27,590 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 12:31:28,649 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 12:31:28,651 - root - INFO - 返回信息:
+{"message":"Requires authentication","documentation_url":"https://docs.github.com/rest/reference/users#get-the-authenticated-user"}
+2022-09-27 12:31:28,652 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-27 12:31:28,653 - root - INFO - 接口请求方式: GET
+2022-09-27 12:31:28,653 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 12:31:28,664 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-27 12:31:31,096 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-27 12:31:31,098 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-27 12:31:31,099 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 12:31:31,100 - root - INFO - 接口请求方式: GET
+2022-09-27 12:31:31,100 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 12:31:31,103 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 12:31:32,709 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 12:31:32,713 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 12:31:33,515 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 12:31:33,515 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 12:31:33,516 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 12:31:33,516 - root - INFO - 接口请求方式: GET
+2022-09-27 12:31:33,516 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 12:31:33,518 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 12:31:34,312 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 12:31:34,313 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 12:31:34,313 - root - WARNING - {}
+2022-09-27 12:31:34,313 - root - INFO - cookie状态不保存场景
+2022-09-27 12:31:34,315 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 12:31:34,315 - root - INFO - 接口请求方式: GET
+2022-09-27 12:31:34,315 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 12:31:34,317 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 12:31:35,300 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 12:31:35,304 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 12:31:36,101 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 12:31:36,102 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 12:31:36,102 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 12:31:36,102 - root - INFO - 接口请求方式: GET
+2022-09-27 12:31:36,102 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 12:31:36,105 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 12:31:37,008 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 12:31:37,009 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 12:31:37,009 - root - WARNING - {'sessioncookie': '123456789'}
+2022-09-27 12:31:57,414 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 12:31:58,718 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 12:31:58,721 - root - INFO - 接口请求地址: https://api.github.com/user
+2022-09-27 12:31:58,722 - root - INFO - 接口请求方式: GET
+2022-09-27 12:31:58,722 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 12:31:58,724 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 12:32:00,254 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 12:32:00,256 - root - INFO - 返回信息:
+{"message":"Requires authentication","documentation_url":"https://docs.github.com/rest/reference/users#get-the-authenticated-user"}
+2022-09-27 12:32:00,257 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-27 12:32:00,257 - root - INFO - 接口请求方式: GET
+2022-09-27 12:32:00,257 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 12:32:00,271 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-27 12:32:01,742 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-27 12:32:01,744 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-27 12:32:01,746 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 12:32:01,746 - root - INFO - 接口请求方式: GET
+2022-09-27 12:32:01,746 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 12:32:01,749 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 12:32:02,609 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 12:32:02,613 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 12:32:03,702 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 12:32:03,703 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 12:32:03,703 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 12:32:03,703 - root - INFO - 接口请求方式: GET
+2022-09-27 12:32:03,703 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 12:32:03,706 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 12:32:04,862 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 12:32:04,862 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 12:32:04,863 - root - WARNING - {}
+2022-09-27 12:32:04,863 - root - INFO - cookie状态不保存场景
+2022-09-27 12:32:04,864 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 12:32:04,864 - root - INFO - 接口请求方式: GET
+2022-09-27 12:32:04,864 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 12:32:04,867 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 12:32:05,671 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 12:32:05,675 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 12:32:06,501 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 12:32:06,502 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 12:32:06,502 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 12:32:06,502 - root - INFO - 接口请求方式: GET
+2022-09-27 12:32:06,502 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 12:32:06,506 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 12:32:07,624 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 12:32:07,624 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 12:32:07,625 - root - WARNING - {'sessioncookie': '123456789'}
+2022-09-27 12:43:41,015 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 12:43:42,045 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 12:43:42,048 - root - INFO - 接口请求地址: https://api.github.com/user
+2022-09-27 12:43:42,049 - root - INFO - 接口请求方式: GET
+2022-09-27 12:43:42,049 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 12:43:42,051 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 12:43:43,535 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 12:43:43,537 - root - INFO - 返回信息:
+{"message":"Requires authentication","documentation_url":"https://docs.github.com/rest/reference/users#get-the-authenticated-user"}
+2022-09-27 12:43:43,539 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-27 12:43:43,539 - root - INFO - 接口请求方式: GET
+2022-09-27 12:43:43,539 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 12:43:43,554 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-27 12:43:45,287 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-27 12:43:45,289 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-27 12:45:59,873 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 12:46:00,960 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 12:46:00,964 - root - INFO - 接口请求地址: https://api.github.com/user
+2022-09-27 12:46:00,964 - root - INFO - 接口请求方式: GET
+2022-09-27 12:46:00,964 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 12:46:00,966 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 12:46:03,213 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 12:46:03,215 - root - INFO - 返回信息:
+{"message":"Requires authentication","documentation_url":"https://docs.github.com/rest/reference/users#get-the-authenticated-user"}
+2022-09-27 12:46:03,217 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-27 12:46:03,217 - root - INFO - 接口请求方式: GET
+2022-09-27 12:46:03,217 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 12:46:03,229 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-27 12:46:04,724 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-27 12:46:04,726 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-27 12:49:16,162 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 12:49:19,000 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 12:49:19,004 - root - INFO - 接口请求地址: https://api.github.com/user
+2022-09-27 12:49:19,004 - root - INFO - 接口请求方式: GET
+2022-09-27 12:49:19,004 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 12:49:19,007 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 12:49:21,424 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 12:49:21,425 - root - INFO - 返回信息:
+{"message":"Requires authentication","documentation_url":"https://docs.github.com/rest/reference/users#get-the-authenticated-user"}
+2022-09-27 12:49:21,427 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-27 12:49:21,427 - root - INFO - 接口请求方式: GET
+2022-09-27 12:49:21,427 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 12:49:21,441 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-27 12:49:23,960 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-27 12:49:23,962 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-27 13:00:49,703 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 13:00:51,200 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 13:00:51,204 - root - INFO - 接口请求地址: https://api.github.com/user
+2022-09-27 13:00:51,204 - root - INFO - 接口请求方式: GET
+2022-09-27 13:00:51,204 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 13:00:51,207 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 13:00:52,426 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 13:00:52,429 - root - INFO - 返回信息:
+{"message":"Requires authentication","documentation_url":"https://docs.github.com/rest/reference/users#get-the-authenticated-user"}
+2022-09-27 13:00:52,430 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-27 13:00:52,430 - root - INFO - 接口请求方式: GET
+2022-09-27 13:00:52,431 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 13:00:52,443 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-27 13:00:54,772 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-27 13:00:54,774 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-27 13:00:54,776 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 13:00:54,776 - root - INFO - 接口请求方式: GET
+2022-09-27 13:00:54,776 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 13:00:54,781 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 13:00:55,703 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 13:00:55,708 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 13:00:56,516 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 13:00:56,517 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 13:00:56,517 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 13:00:56,518 - root - INFO - 接口请求方式: GET
+2022-09-27 13:00:56,518 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 13:00:56,520 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 13:00:57,381 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 13:00:57,382 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 13:00:57,382 - root - WARNING - {}
+2022-09-27 13:00:57,382 - root - INFO - cookie状态不保存场景
+2022-09-27 13:00:57,383 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 13:00:57,383 - root - INFO - 接口请求方式: GET
+2022-09-27 13:00:57,384 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 13:00:57,386 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 13:00:58,191 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 13:00:58,196 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 13:00:59,271 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 13:00:59,271 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 13:00:59,272 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 13:00:59,272 - root - INFO - 接口请求方式: GET
+2022-09-27 13:00:59,272 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 13:00:59,274 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 13:01:00,097 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 13:01:00,098 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 13:01:00,098 - root - WARNING - {'sessioncookie': '123456789'}
+2022-09-27 13:01:20,199 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 13:01:21,303 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 13:01:21,307 - root - INFO - 接口请求地址: https://api.github.com/user
+2022-09-27 13:01:21,307 - root - INFO - 接口请求方式: GET
+2022-09-27 13:01:21,307 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 13:01:21,309 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 13:01:22,840 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 13:01:22,841 - root - INFO - 返回信息:
+{"message":"Requires authentication","documentation_url":"https://docs.github.com/rest/reference/users#get-the-authenticated-user"}
+2022-09-27 13:01:22,843 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-27 13:01:22,843 - root - INFO - 接口请求方式: GET
+2022-09-27 13:01:22,843 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 13:01:22,855 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-27 13:01:24,476 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-27 13:01:24,478 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-27 13:01:24,479 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 13:01:24,480 - root - INFO - 接口请求方式: GET
+2022-09-27 13:01:24,480 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 13:01:24,483 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 13:01:25,475 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 13:01:25,480 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 13:01:26,293 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 13:01:26,294 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 13:01:26,294 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 13:01:26,294 - root - INFO - 接口请求方式: GET
+2022-09-27 13:01:26,294 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 13:01:26,297 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 13:01:27,105 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 13:01:27,105 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 13:01:27,106 - root - WARNING - {}
+2022-09-27 13:01:27,106 - root - INFO - cookie状态不保存场景
+2022-09-27 13:01:27,107 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 13:01:27,108 - root - INFO - 接口请求方式: GET
+2022-09-27 13:01:27,108 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 13:01:27,110 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 13:01:28,165 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 13:01:28,170 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 13:01:28,982 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 13:01:28,982 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 13:01:28,983 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 13:01:28,983 - root - INFO - 接口请求方式: GET
+2022-09-27 13:01:28,983 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 13:01:28,985 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 13:01:30,111 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 13:01:30,111 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 13:01:30,111 - root - WARNING - {'sessioncookie': '123456789'}
+2022-09-27 14:55:41,512 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 14:55:42,557 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 14:55:42,561 - root - INFO - 接口请求地址: https://api.github.com/user
+2022-09-27 14:55:42,561 - root - INFO - 接口请求方式: GET
+2022-09-27 14:55:42,562 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 14:55:42,564 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 14:55:43,774 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 14:55:43,776 - root - INFO - 返回信息:
+{"message":"Requires authentication","documentation_url":"https://docs.github.com/rest/reference/users#get-the-authenticated-user"}
+2022-09-27 14:55:43,778 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-27 14:55:43,778 - root - INFO - 接口请求方式: GET
+2022-09-27 14:55:43,778 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 14:55:43,792 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-27 14:55:45,345 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-27 14:55:45,347 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-27 14:55:45,349 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 14:55:45,350 - root - INFO - 接口请求方式: GET
+2022-09-27 14:55:45,350 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 14:55:45,355 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 14:55:46,156 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 14:55:46,161 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 14:55:46,969 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 14:55:46,970 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 14:55:46,970 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 14:55:46,970 - root - INFO - 接口请求方式: GET
+2022-09-27 14:55:46,970 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 14:55:46,972 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 14:55:47,774 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 14:55:47,775 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 14:55:47,775 - root - WARNING - {}
+2022-09-27 14:55:47,775 - root - INFO - cookie状态不保存场景
+2022-09-27 14:55:47,777 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 14:55:47,777 - root - INFO - 接口请求方式: GET
+2022-09-27 14:55:47,777 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 14:55:47,780 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 14:55:49,005 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 14:55:49,009 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 14:55:49,825 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 14:55:49,826 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 14:55:49,826 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 14:55:49,826 - root - INFO - 接口请求方式: GET
+2022-09-27 14:55:49,826 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 14:55:49,829 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 14:55:50,870 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 14:55:50,871 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 14:55:50,871 - root - WARNING - {'sessioncookie': '123456789'}
+2022-09-27 14:55:54,690 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 14:55:54,691 - root - INFO - 接口请求方式: GET
+2022-09-27 14:55:54,691 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 14:55:54,708 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 14:55:56,336 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 14:55:56,341 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 14:55:57,148 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 14:55:57,148 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 14:55:57,149 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 14:55:57,149 - root - INFO - 接口请求方式: GET
+2022-09-27 14:55:57,149 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 14:55:57,151 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 14:55:58,070 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 14:55:58,071 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 14:55:58,071 - root - WARNING - {}
+2022-09-27 14:55:58,071 - root - INFO - cookie状态不保存场景
+2022-09-27 15:25:21,412 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 15:25:21,412 - root - INFO - 接口请求方式: GET
+2022-09-27 15:25:21,412 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:25:21,439 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 15:25:22,726 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 15:25:22,731 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 15:25:23,615 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 15:25:23,616 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 15:25:23,616 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 15:25:23,616 - root - INFO - 接口请求方式: GET
+2022-09-27 15:25:23,617 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:25:23,619 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 15:25:24,837 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 15:25:24,838 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 15:25:24,838 - root - WARNING - {'sessioncookie': '123456789'}
+2022-09-27 15:25:44,830 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 15:25:44,830 - root - INFO - 接口请求方式: GET
+2022-09-27 15:25:44,830 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:25:44,843 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 15:25:46,351 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 15:25:46,356 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 15:25:47,152 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 15:25:47,152 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 15:25:47,153 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 15:25:47,153 - root - INFO - 接口请求方式: GET
+2022-09-27 15:25:47,153 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:25:47,155 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 15:25:47,957 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 15:25:47,958 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 15:25:47,958 - root - WARNING - {'sessioncookie': '123456789'}
+2022-09-27 15:26:22,595 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 15:26:22,596 - root - INFO - 接口请求方式: GET
+2022-09-27 15:26:22,596 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:26:22,606 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 15:26:23,415 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 15:26:23,419 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 15:26:24,405 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 15:26:24,405 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 15:26:24,406 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 15:26:24,406 - root - INFO - 接口请求方式: GET
+2022-09-27 15:26:24,406 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:26:24,408 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 15:26:26,181 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 15:26:26,181 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 15:26:26,181 - root - WARNING - {'sessioncookie': '123456789'}
+2022-09-27 15:42:40,222 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 15:42:40,222 - root - INFO - 接口请求方式: GET
+2022-09-27 15:42:40,223 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:42:40,244 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 15:42:41,075 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 15:42:41,079 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 15:42:42,036 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 15:42:42,037 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 15:42:42,037 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 15:42:42,037 - root - INFO - 接口请求方式: GET
+2022-09-27 15:42:42,037 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:42:42,040 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 15:42:42,855 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 15:42:42,855 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 15:42:42,856 - root - WARNING - {'sessioncookie': '123456789'}
+2022-09-27 15:48:52,075 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 15:48:52,076 - root - INFO - 接口请求方式: GET
+2022-09-27 15:48:52,076 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:48:52,100 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 15:48:53,026 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 15:48:53,030 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 15:48:53,845 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 15:48:53,846 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 15:48:53,846 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 15:48:53,846 - root - INFO - 接口请求方式: GET
+2022-09-27 15:48:53,846 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:48:53,848 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 15:48:54,642 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 15:48:54,643 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 15:48:54,643 - root - WARNING - {}
+2022-09-27 15:48:54,643 - root - INFO - cookie状态不保存场景
+2022-09-27 15:49:24,767 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 15:49:26,270 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 15:49:26,274 - root - INFO - 接口请求地址: https://api.github.com/user
+2022-09-27 15:49:26,274 - root - INFO - 接口请求方式: GET
+2022-09-27 15:49:26,274 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:49:26,277 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 15:49:28,347 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 15:49:28,348 - root - INFO - 返回信息:
+{"message":"Requires authentication","documentation_url":"https://docs.github.com/rest/reference/users#get-the-authenticated-user"}
+2022-09-27 15:49:28,350 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-27 15:49:28,350 - root - INFO - 接口请求方式: GET
+2022-09-27 15:49:28,350 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:49:28,353 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-27 15:49:29,847 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-27 15:49:29,849 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-27 15:49:29,851 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 15:49:29,851 - root - INFO - 接口请求方式: GET
+2022-09-27 15:49:29,852 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:49:29,855 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 15:49:30,655 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 15:49:30,659 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 15:49:31,529 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 15:49:31,530 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 15:49:31,530 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 15:49:31,530 - root - INFO - 接口请求方式: GET
+2022-09-27 15:49:31,530 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:49:31,533 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 15:49:32,348 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 15:49:32,349 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 15:49:32,349 - root - WARNING - {'sessioncookie': '123456789'}
+2022-09-27 15:49:32,708 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 15:49:33,747 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 15:49:33,751 - root - INFO - 接口请求地址: https://api.github.com/user
+2022-09-27 15:49:33,751 - root - INFO - 接口请求方式: GET
+2022-09-27 15:49:33,751 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:49:33,754 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 15:49:34,908 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 15:49:34,909 - root - INFO - 返回信息:
+{"message":"Requires authentication","documentation_url":"https://docs.github.com/rest/reference/users#get-the-authenticated-user"}
+2022-09-27 15:49:34,911 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-27 15:49:34,911 - root - INFO - 接口请求方式: GET
+2022-09-27 15:49:34,912 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:49:34,914 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-27 15:49:37,377 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-27 15:49:37,378 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-27 15:49:37,381 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 15:49:37,381 - root - INFO - 接口请求方式: GET
+2022-09-27 15:49:37,381 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:49:37,384 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 15:49:38,190 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 15:49:38,194 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 15:49:39,003 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 15:49:39,004 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 15:49:39,004 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 15:49:39,004 - root - INFO - 接口请求方式: GET
+2022-09-27 15:49:39,004 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:49:39,006 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 15:49:39,811 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 15:49:39,812 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 15:49:39,812 - root - WARNING - {'sessioncookie': '123456789'}
+2022-09-27 15:50:30,964 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 15:50:32,027 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 15:50:32,032 - root - INFO - 接口请求地址: https://api.github.com/user
+2022-09-27 15:50:32,032 - root - INFO - 接口请求方式: GET
+2022-09-27 15:50:32,032 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:50:32,035 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 15:50:33,079 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 15:50:33,081 - root - INFO - 返回信息:
+{"message":"Requires authentication","documentation_url":"https://docs.github.com/rest/reference/users#get-the-authenticated-user"}
+2022-09-27 15:50:33,083 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-27 15:50:33,083 - root - INFO - 接口请求方式: GET
+2022-09-27 15:50:33,083 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:50:33,096 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-27 15:50:34,662 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-27 15:50:34,664 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-27 15:50:34,667 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 15:50:34,668 - root - INFO - 接口请求方式: GET
+2022-09-27 15:50:34,668 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:50:34,671 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 15:50:35,932 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 15:50:35,936 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 15:50:36,751 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 15:50:36,752 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 15:50:36,752 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 15:50:36,752 - root - INFO - 接口请求方式: GET
+2022-09-27 15:50:36,753 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:50:36,755 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 15:50:37,566 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 15:50:37,567 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 15:50:37,567 - root - WARNING - {'sessioncookie': '123456789'}
+2022-09-27 15:50:54,123 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 15:50:55,202 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 15:50:55,204 - root - INFO - 接口请求地址: https://api.github.com/user
+2022-09-27 15:50:55,205 - root - INFO - 接口请求方式: GET
+2022-09-27 15:50:55,205 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:50:55,207 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 15:50:56,309 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 15:50:56,311 - root - INFO - 返回信息:
+{"message":"Requires authentication","documentation_url":"https://docs.github.com/rest/reference/users#get-the-authenticated-user"}
+2022-09-27 15:50:56,312 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-27 15:50:56,312 - root - INFO - 接口请求方式: GET
+2022-09-27 15:50:56,313 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:50:56,315 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-27 15:50:57,799 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-27 15:50:57,800 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-27 15:50:57,802 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 15:50:57,802 - root - INFO - 接口请求方式: GET
+2022-09-27 15:50:57,802 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:50:57,805 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 15:50:59,120 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 15:50:59,124 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 15:50:59,995 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 15:50:59,996 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 15:50:59,996 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 15:50:59,996 - root - INFO - 接口请求方式: GET
+2022-09-27 15:50:59,996 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:50:59,999 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 15:51:01,020 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 15:51:01,020 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 15:51:01,020 - root - WARNING - {'sessioncookie': '123456789'}
+2022-09-27 15:53:02,316 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 15:53:02,317 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-27 15:53:02,317 - root - INFO - 接口请求方式: GET
+2022-09-27 15:53:02,317 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 15:53:02,317 - root - INFO - 接口请求方式: GET
+2022-09-27 15:53:02,318 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:53:02,318 - root - INFO - 接口请求方式: GET
+2022-09-27 15:53:02,317 - root - INFO - 接口请求地址: https://api.github.com/user
+2022-09-27 15:53:02,318 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:53:02,318 - root - INFO - 接口请求方式: GET
+2022-09-27 15:53:02,318 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:53:02,318 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:53:02,336 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 15:53:02,336 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 15:53:02,339 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 15:53:02,340 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 15:53:02,340 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-27 15:53:03,152 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 15:53:03,153 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 15:53:03,157 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 15:53:03,157 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 15:53:03,377 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 15:53:03,404 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 15:53:03,406 - root - INFO - 返回信息:
+{"message":"Requires authentication","documentation_url":"https://docs.github.com/rest/reference/users#get-the-authenticated-user"}
+2022-09-27 15:53:03,813 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-27 15:53:03,814 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-27 15:53:03,956 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 15:53:03,957 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 15:53:03,957 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 15:53:03,957 - root - INFO - 接口请求方式: GET
+2022-09-27 15:53:03,957 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:53:03,960 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 15:53:04,356 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 15:53:04,357 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 15:53:04,357 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 15:53:04,358 - root - INFO - 接口请求方式: GET
+2022-09-27 15:53:04,358 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:53:04,361 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 15:53:04,771 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 15:53:04,771 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 15:53:04,771 - root - WARNING - {'sessioncookie': '123456789'}
+2022-09-27 15:53:05,167 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 15:53:05,168 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 15:53:05,168 - root - WARNING - {}
+2022-09-27 15:53:05,168 - root - INFO - cookie状态不保存场景
+2022-09-27 15:53:13,264 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 15:53:13,264 - root - INFO - 接口请求地址: https://api.github.com/user
+2022-09-27 15:53:13,264 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 15:53:13,264 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-27 15:53:13,264 - root - INFO - 接口请求方式: GET
+2022-09-27 15:53:13,264 - root - INFO - 接口请求方式: GET
+2022-09-27 15:53:13,264 - root - INFO - 接口请求方式: GET
+2022-09-27 15:53:13,264 - root - INFO - 接口请求方式: GET
+2022-09-27 15:53:13,264 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:53:13,265 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:53:13,265 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:53:13,265 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:53:13,277 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 15:53:13,277 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 15:53:13,277 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 15:53:13,277 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-27 15:53:13,277 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 15:53:14,084 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 15:53:14,089 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 15:53:14,092 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 15:53:14,096 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 15:53:14,326 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 15:53:14,335 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 15:53:14,336 - root - INFO - 返回信息:
+{"message":"Requires authentication","documentation_url":"https://docs.github.com/rest/reference/users#get-the-authenticated-user"}
+2022-09-27 15:53:14,755 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-27 15:53:14,757 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-27 15:53:14,903 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 15:53:14,904 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 15:53:14,904 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 15:53:14,904 - root - INFO - 接口请求方式: GET
+2022-09-27 15:53:14,904 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:53:14,905 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 15:53:14,905 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 15:53:14,905 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 15:53:14,905 - root - INFO - 接口请求方式: GET
+2022-09-27 15:53:14,906 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:53:14,906 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 15:53:14,908 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 15:53:15,781 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 15:53:15,782 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 15:53:15,782 - root - WARNING - {}
+2022-09-27 15:53:15,782 - root - INFO - cookie状态不保存场景
+2022-09-27 15:53:15,904 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 15:53:15,905 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 15:53:15,905 - root - WARNING - {'sessioncookie': '123456789'}
+2022-09-27 15:53:21,806 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 15:53:23,047 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 15:53:23,050 - root - INFO - 接口请求地址: https://api.github.com/user
+2022-09-27 15:53:23,051 - root - INFO - 接口请求方式: GET
+2022-09-27 15:53:23,051 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:53:23,053 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 15:53:24,197 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 15:53:24,199 - root - INFO - 返回信息:
+{"message":"Requires authentication","documentation_url":"https://docs.github.com/rest/reference/users#get-the-authenticated-user"}
+2022-09-27 15:53:24,200 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-27 15:53:24,200 - root - INFO - 接口请求方式: GET
+2022-09-27 15:53:24,200 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:53:24,206 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-27 15:53:26,277 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-27 15:53:26,278 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-27 15:53:26,280 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 15:53:26,280 - root - INFO - 接口请求方式: GET
+2022-09-27 15:53:26,281 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:53:26,284 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 15:53:27,683 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 15:53:27,688 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 15:53:28,502 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 15:53:28,503 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 15:53:28,503 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 15:53:28,503 - root - INFO - 接口请求方式: GET
+2022-09-27 15:53:28,503 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 15:53:28,506 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 15:53:29,306 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 15:53:29,306 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 15:53:29,307 - root - WARNING - {'sessioncookie': '123456789'}
+2022-09-27 18:29:06,069 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 18:29:08,049 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 18:29:08,053 - root - INFO - 接口请求地址: https://api.github.com/user
+2022-09-27 18:29:08,053 - root - INFO - 接口请求方式: GET
+2022-09-27 18:29:08,053 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 18:29:08,055 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 18:29:10,305 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 18:29:10,307 - root - INFO - 返回信息:
+{"message":"Requires authentication","documentation_url":"https://docs.github.com/rest/reference/users#get-the-authenticated-user"}
+2022-09-27 18:29:10,308 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-27 18:29:10,309 - root - INFO - 接口请求方式: GET
+2022-09-27 18:29:10,309 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 18:29:11,385 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-27 18:29:16,133 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-27 18:29:16,135 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-27 18:29:16,136 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 18:29:16,137 - root - INFO - 接口请求方式: GET
+2022-09-27 18:29:16,137 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 18:29:16,142 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 18:29:17,061 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 18:29:17,065 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 18:29:17,982 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 18:29:17,982 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 18:29:17,983 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 18:29:17,983 - root - INFO - 接口请求方式: GET
+2022-09-27 18:29:17,983 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 18:29:17,985 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 18:29:18,824 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 18:29:18,824 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 18:29:18,824 - root - WARNING - {'sessioncookie': '123456789'}
+2022-09-27 18:29:22,576 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 18:29:22,576 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 18:29:22,576 - root - INFO - 接口请求方式: GET
+2022-09-27 18:29:22,576 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-27 18:29:22,577 - root - INFO - 接口请求地址: https://api.github.com/user
+2022-09-27 18:29:22,577 - root - INFO - 接口请求方式: GET
+2022-09-27 18:29:22,577 - root - INFO - 接口请求方式: GET
+2022-09-27 18:29:22,577 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 18:29:22,577 - root - INFO - 接口请求方式: GET
+2022-09-27 18:29:22,577 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 18:29:22,577 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 18:29:22,577 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 18:29:22,588 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-27 18:29:22,589 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 18:29:22,589 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 18:29:22,593 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 18:29:22,593 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 18:29:23,568 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 18:29:23,573 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 18:29:23,876 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 18:29:23,878 - root - INFO - 返回信息:
+{"message":"Requires authentication","documentation_url":"https://docs.github.com/rest/reference/users#get-the-authenticated-user"}
+2022-09-27 18:29:24,240 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 18:29:24,245 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 18:29:24,348 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 18:29:24,731 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 18:29:24,732 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 18:29:24,732 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 18:29:24,733 - root - INFO - 接口请求方式: GET
+2022-09-27 18:29:24,733 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 18:29:24,737 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 18:29:24,900 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-27 18:29:24,902 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-27 18:29:25,117 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 18:29:25,118 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 18:29:25,118 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 18:29:25,118 - root - INFO - 接口请求方式: GET
+2022-09-27 18:29:25,118 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 18:29:25,120 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 18:29:26,072 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 18:29:26,072 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 18:29:26,072 - root - WARNING - {}
+2022-09-27 18:29:26,072 - root - INFO - cookie状态不保存场景
+2022-09-27 18:29:26,073 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 18:29:26,073 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 18:29:26,073 - root - WARNING - {'sessioncookie': '123456789'}
+2022-09-27 18:41:30,378 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 18:41:30,379 - root - INFO - 接口请求方式: GET
+2022-09-27 18:41:30,380 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 18:41:30,409 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 18:41:31,560 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 18:41:31,564 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 18:41:32,479 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 18:41:32,479 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 18:41:32,480 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 18:41:32,480 - root - INFO - 接口请求方式: GET
+2022-09-27 18:41:32,480 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 18:41:32,482 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 18:41:33,673 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 18:41:33,673 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 18:41:33,673 - root - WARNING - {}
+2022-09-27 18:41:33,674 - root - INFO - {'cookies': {'sessioncookie': '123456789'}}
+2022-09-27 18:41:33,674 - root - INFO - cookie状态不保存场景
+2022-09-27 18:44:33,145 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 18:44:33,145 - root - INFO - 接口请求方式: GET
+2022-09-27 18:44:33,145 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 18:44:33,178 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 18:44:36,665 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 18:44:36,669 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 18:44:37,522 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 18:44:37,523 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 18:44:37,523 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 18:44:37,523 - root - INFO - 接口请求方式: GET
+2022-09-27 18:44:37,523 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 18:44:37,526 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 18:44:39,054 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 18:44:39,055 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 18:44:39,055 - root - WARNING - {}
+2022-09-27 18:44:39,055 - root - INFO - {'cookies': {'sessioncookie': '123456789'}}
+2022-09-27 18:44:39,056 - root - INFO - cookie状态不保存场景
+2022-09-27 18:45:35,437 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 18:45:35,437 - root - INFO - 接口请求方式: GET
+2022-09-27 18:45:35,437 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 18:45:35,448 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 18:45:37,731 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 18:45:37,735 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 18:45:38,701 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 18:45:38,701 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 18:45:38,702 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 18:45:38,702 - root - INFO - 接口请求方式: GET
+2022-09-27 18:45:38,702 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 18:45:38,704 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 18:45:39,726 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 18:45:39,727 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 18:45:39,727 - root - INFO - cookie状态不保存场景
+2022-09-27 19:34:24,100 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 19:34:24,101 - root - INFO - 接口请求方式: GET
+2022-09-27 19:34:24,101 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 19:34:24,125 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 19:34:25,488 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 19:34:25,493 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 19:34:26,680 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 19:34:26,681 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 19:34:26,681 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 19:34:26,681 - root - INFO - 接口请求方式: GET
+2022-09-27 19:34:26,681 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 19:34:26,683 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 19:34:28,531 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 19:34:28,531 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 19:34:28,531 - root - INFO - cookie状态不保存场景
+2022-09-27 20:48:32,984 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 20:48:34,243 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 20:48:34,249 - root - INFO - 接口请求地址: https://api.github.com/user
+2022-09-27 20:48:34,249 - root - INFO - 接口请求方式: GET
+2022-09-27 20:48:34,249 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 20:48:34,252 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 20:48:36,347 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 20:48:36,349 - root - INFO - 返回信息:
+{"message":"Requires authentication","documentation_url":"https://docs.github.com/rest/reference/users#get-the-authenticated-user"}
+2022-09-27 20:48:36,353 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-27 20:48:36,353 - root - INFO - 接口请求方式: GET
+2022-09-27 20:48:36,353 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 20:48:36,364 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-27 20:48:38,221 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-27 20:48:38,223 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-27 20:48:38,229 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 20:48:38,229 - root - INFO - 接口请求方式: GET
+2022-09-27 20:48:38,229 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 20:48:38,233 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 20:48:39,931 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 20:48:39,936 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 20:48:40,729 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 20:48:40,730 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 20:48:40,730 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 20:48:40,730 - root - INFO - 接口请求方式: GET
+2022-09-27 20:48:40,730 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 20:48:40,733 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 20:48:43,719 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 20:48:43,720 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 20:48:43,721 - root - WARNING - {}
+2022-09-27 20:48:43,721 - root - INFO - cookie状态不保存场景
+2022-09-27 20:48:43,724 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 20:48:43,724 - root - INFO - 接口请求方式: GET
+2022-09-27 20:48:43,725 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 20:48:43,727 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 20:48:45,460 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 20:48:45,464 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 20:48:47,508 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 20:48:47,509 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 20:48:47,509 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 20:48:47,509 - root - INFO - 接口请求方式: GET
+2022-09-27 20:48:47,510 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 20:48:47,512 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 20:48:48,481 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 20:48:48,482 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 20:48:48,482 - root - WARNING - {'sessioncookie': '123456789'}
+2022-09-27 20:48:48,486 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 20:48:48,487 - root - INFO - 接口请求方式: GET
+2022-09-27 20:48:48,487 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 20:48:48,489 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 20:48:49,379 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 20:48:49,383 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 20:48:50,566 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 20:48:50,567 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 20:48:50,567 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 20:48:50,567 - root - INFO - 接口请求方式: GET
+2022-09-27 20:48:50,567 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 20:48:50,569 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 20:48:51,376 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 20:48:51,377 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 20:48:51,377 - root - INFO - cookie状态不保存场景
+2022-09-27 20:49:53,640 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 20:49:55,707 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 20:49:55,713 - root - INFO - 接口请求地址: https://api.github.com/user
+2022-09-27 20:49:55,713 - root - INFO - 接口请求方式: GET
+2022-09-27 20:49:55,713 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 20:49:55,716 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 20:49:57,321 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 20:49:57,323 - root - INFO - 返回信息:
+{"message":"Requires authentication","documentation_url":"https://docs.github.com/rest/reference/users#get-the-authenticated-user"}
+2022-09-27 20:49:57,326 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-27 20:49:57,326 - root - INFO - 接口请求方式: GET
+2022-09-27 20:49:57,326 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 20:49:57,338 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-27 20:49:58,945 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-27 20:49:58,946 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-27 20:49:58,952 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 20:49:58,952 - root - INFO - 接口请求方式: GET
+2022-09-27 20:49:58,952 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 20:49:58,955 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 20:49:59,800 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 20:49:59,805 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 20:50:00,618 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 20:50:00,619 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 20:50:00,619 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 20:50:00,619 - root - INFO - 接口请求方式: GET
+2022-09-27 20:50:00,619 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 20:50:00,621 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 20:50:03,434 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 20:50:03,435 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 20:50:03,435 - root - WARNING - {}
+2022-09-27 20:50:03,435 - root - INFO - cookie状态不保存场景
+2022-09-27 20:50:03,438 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 20:50:03,438 - root - INFO - 接口请求方式: GET
+2022-09-27 20:50:03,438 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 20:50:03,441 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 20:50:04,753 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 20:50:04,756 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 20:50:06,389 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 20:50:06,389 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 20:50:06,389 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 20:50:06,389 - root - INFO - 接口请求方式: GET
+2022-09-27 20:50:06,390 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 20:50:06,392 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 20:50:08,323 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 20:50:08,323 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 20:50:08,324 - root - WARNING - {'sessioncookie': '123456789'}
+2022-09-27 20:50:08,329 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 20:50:08,329 - root - INFO - 接口请求方式: GET
+2022-09-27 20:50:08,329 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 20:50:08,332 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 20:50:09,835 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 20:50:09,838 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 20:50:11,579 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 20:50:11,580 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 20:50:11,580 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 20:50:11,580 - root - INFO - 接口请求方式: GET
+2022-09-27 20:50:11,580 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 20:50:11,582 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 20:50:12,381 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 20:50:12,382 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 20:50:12,382 - root - INFO - cookie状态不保存场景
+2022-09-27 20:51:42,504 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 20:51:43,562 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 20:51:43,567 - root - INFO - 接口请求地址: https://api.github.com/user
+2022-09-27 20:51:43,567 - root - INFO - 接口请求方式: GET
+2022-09-27 20:51:43,567 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 20:51:43,569 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 20:51:46,096 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 20:51:46,097 - root - INFO - 返回信息:
+{"message":"Requires authentication","documentation_url":"https://docs.github.com/rest/reference/users#get-the-authenticated-user"}
+2022-09-27 20:51:46,101 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-27 20:51:46,101 - root - INFO - 接口请求方式: GET
+2022-09-27 20:51:46,101 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 20:51:46,113 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-27 20:51:48,400 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-27 20:51:48,401 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-27 20:51:48,407 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 20:51:48,407 - root - INFO - 接口请求方式: GET
+2022-09-27 20:51:48,407 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 20:51:48,410 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 20:51:49,680 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 20:51:49,684 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 20:51:50,499 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 20:51:50,500 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 20:51:50,500 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 20:51:50,500 - root - INFO - 接口请求方式: GET
+2022-09-27 20:51:50,501 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 20:51:50,503 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 20:51:52,240 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 20:51:52,241 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 20:51:52,241 - root - WARNING - {}
+2022-09-27 20:51:52,241 - root - INFO - cookie状态不保存场景
+2022-09-27 20:51:52,244 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 20:51:52,244 - root - INFO - 接口请求方式: GET
+2022-09-27 20:51:52,244 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 20:51:52,246 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 20:51:53,572 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 20:51:53,575 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 20:51:54,800 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 20:51:54,801 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 20:51:54,801 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 20:51:54,801 - root - INFO - 接口请求方式: GET
+2022-09-27 20:51:54,801 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 20:51:54,804 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 20:51:55,723 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 20:51:55,724 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 20:51:55,724 - root - WARNING - {'sessioncookie': '123456789'}
+2022-09-27 20:51:55,728 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 20:51:55,728 - root - INFO - 接口请求方式: GET
+2022-09-27 20:51:55,728 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 20:51:55,731 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 20:51:56,554 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 20:51:56,557 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 20:51:57,372 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 20:51:57,373 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 20:51:57,373 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 20:51:57,373 - root - INFO - 接口请求方式: GET
+2022-09-27 20:51:57,373 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 20:51:57,375 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 20:51:58,185 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 20:51:58,186 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 20:51:58,186 - root - INFO - cookie状态不保存场景
+2022-09-27 21:02:23,269 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 21:02:24,355 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 21:02:24,361 - root - INFO - 接口请求地址: https://api.github.com/user
+2022-09-27 21:02:24,361 - root - INFO - 接口请求方式: GET
+2022-09-27 21:02:24,361 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 21:02:24,364 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 21:02:25,686 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 21:02:25,688 - root - INFO - 返回信息:
+{"message":"Requires authentication","documentation_url":"https://docs.github.com/rest/reference/users#get-the-authenticated-user"}
+2022-09-27 21:02:25,691 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-27 21:02:25,691 - root - INFO - 接口请求方式: GET
+2022-09-27 21:02:25,691 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 21:02:25,706 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-27 21:02:27,632 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-27 21:02:27,634 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-27 21:02:27,639 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 21:02:27,639 - root - INFO - 接口请求方式: GET
+2022-09-27 21:02:27,639 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 21:02:27,643 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 21:02:28,453 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 21:02:28,456 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 21:02:29,257 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 21:02:29,258 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 21:02:29,258 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 21:02:29,258 - root - INFO - 接口请求方式: GET
+2022-09-27 21:02:29,258 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 21:02:29,261 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 21:02:30,279 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 21:02:30,279 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 21:02:30,280 - root - WARNING - {}
+2022-09-27 21:02:30,280 - root - INFO - cookie状态不保存场景
+2022-09-27 21:02:30,283 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 21:02:30,283 - root - INFO - 接口请求方式: GET
+2022-09-27 21:02:30,283 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 21:02:30,286 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 21:02:31,728 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 21:02:31,731 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 21:02:32,885 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 21:02:32,886 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 21:02:32,886 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 21:02:32,886 - root - INFO - 接口请求方式: GET
+2022-09-27 21:02:32,886 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 21:02:32,889 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 21:02:34,116 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 21:02:34,116 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 21:02:34,116 - root - WARNING - {'sessioncookie': '123456789'}
+2022-09-27 21:02:34,122 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 21:02:34,122 - root - INFO - 接口请求方式: GET
+2022-09-27 21:02:34,122 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 21:02:34,124 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 21:02:35,178 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 21:02:35,183 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 21:02:36,497 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 21:02:36,497 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 21:02:36,498 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 21:02:36,498 - root - INFO - 接口请求方式: GET
+2022-09-27 21:02:36,498 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 21:02:36,500 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 21:02:38,026 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 21:02:38,027 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 21:02:38,027 - root - INFO - cookie状态不保存场景
+2022-09-27 21:14:22,526 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 21:14:23,705 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 21:14:23,710 - root - INFO - 接口请求地址: https://api.github.com/user
+2022-09-27 21:14:23,710 - root - INFO - 接口请求方式: GET
+2022-09-27 21:14:23,710 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 21:14:23,713 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 21:14:25,756 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 21:14:25,757 - root - INFO - 返回信息:
+{"message":"Requires authentication","documentation_url":"https://docs.github.com/rest/reference/users#get-the-authenticated-user"}
+2022-09-27 21:14:25,761 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-27 21:14:25,761 - root - INFO - 接口请求方式: GET
+2022-09-27 21:14:25,761 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 21:14:25,773 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-27 21:14:27,426 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-27 21:14:27,428 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-27 21:14:27,434 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 21:14:27,434 - root - INFO - 接口请求方式: GET
+2022-09-27 21:14:27,434 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 21:14:27,438 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 21:14:28,313 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 21:14:28,317 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 21:14:29,118 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 21:14:29,118 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 21:14:29,119 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 21:14:29,119 - root - INFO - 接口请求方式: GET
+2022-09-27 21:14:29,119 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 21:14:29,121 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 21:14:31,591 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 21:14:31,592 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 21:14:31,592 - root - WARNING - {}
+2022-09-27 21:14:31,592 - root - INFO - cookie状态不保存场景
+2022-09-27 21:14:31,595 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 21:14:31,595 - root - INFO - 接口请求方式: GET
+2022-09-27 21:14:31,595 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 21:14:31,597 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 21:14:33,638 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 21:14:33,642 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 21:14:35,278 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 21:14:35,279 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 21:14:35,279 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 21:14:35,279 - root - INFO - 接口请求方式: GET
+2022-09-27 21:14:35,279 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 21:14:35,282 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 21:14:36,118 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 21:14:36,119 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 21:14:36,119 - root - WARNING - {'sessioncookie': '123456789'}
+2022-09-27 21:14:36,123 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 21:14:36,123 - root - INFO - 接口请求方式: GET
+2022-09-27 21:14:36,123 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 21:14:36,125 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 21:14:38,656 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 21:14:38,660 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 21:14:39,783 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 21:14:39,784 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 21:14:39,784 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 21:14:39,784 - root - INFO - 接口请求方式: GET
+2022-09-27 21:14:39,784 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 21:14:39,786 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 21:14:41,216 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 21:14:41,217 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 21:14:41,217 - root - INFO - cookie状态不保存场景
+2022-09-27 21:19:58,243 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 21:19:59,473 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 21:19:59,479 - root - INFO - 接口请求地址: https://api.github.com/user
+2022-09-27 21:19:59,479 - root - INFO - 接口请求方式: GET
+2022-09-27 21:19:59,479 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 21:19:59,482 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2022-09-27 21:20:01,012 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /user HTTP/1.1" 401 131
+2022-09-27 21:20:01,014 - root - INFO - 返回信息:
+{"message":"Requires authentication","documentation_url":"https://docs.github.com/rest/reference/users#get-the-authenticated-user"}
+2022-09-27 21:20:01,017 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-27 21:20:01,018 - root - INFO - 接口请求方式: GET
+2022-09-27 21:20:01,018 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 21:20:01,030 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-27 21:20:02,765 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-27 21:20:02,767 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-27 21:20:02,773 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 21:20:02,774 - root - INFO - 接口请求方式: GET
+2022-09-27 21:20:02,774 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 21:20:02,776 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 21:20:03,663 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 21:20:03,666 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 21:20:04,934 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 21:20:04,934 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 21:20:04,935 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 21:20:04,935 - root - INFO - 接口请求方式: GET
+2022-09-27 21:20:04,935 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 21:20:04,937 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 21:20:05,819 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 21:20:05,820 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 21:20:05,820 - root - WARNING - {}
+2022-09-27 21:20:05,820 - root - INFO - cookie状态不保存场景
+2022-09-27 21:20:05,823 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 21:20:05,823 - root - INFO - 接口请求方式: GET
+2022-09-27 21:20:05,823 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 21:20:05,825 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 21:20:06,641 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 21:20:06,645 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 21:20:07,468 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 21:20:07,468 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 21:20:07,469 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 21:20:07,469 - root - INFO - 接口请求方式: GET
+2022-09-27 21:20:07,469 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 21:20:07,471 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 21:20:08,277 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 21:20:08,277 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 21:20:08,277 - root - WARNING - {'sessioncookie': '123456789'}
+2022-09-27 21:20:08,281 - root - INFO - 接口请求地址: http://httpbin.org/cookies/set/sessioncookie/123456789
+2022-09-27 21:20:08,282 - root - INFO - 接口请求方式: GET
+2022-09-27 21:20:08,282 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 21:20:08,285 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 21:20:09,106 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies/set/sessioncookie/123456789 HTTP/1.1" 302 223
+2022-09-27 21:20:09,110 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 127.0.0.1
+2022-09-27 21:20:10,430 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 56
+2022-09-27 21:20:10,431 - root - INFO - 返回信息:
+{
+  "cookies": {
+    "sessioncookie": "123456789"
+  }
+}
+
+2022-09-27 21:20:10,431 - root - INFO - 接口请求地址: http://httpbin.org/cookies
+2022-09-27 21:20:10,431 - root - INFO - 接口请求方式: GET
+2022-09-27 21:20:10,431 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-27 21:20:10,434 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:7890
+2022-09-27 21:20:11,352 - urllib3.connectionpool - DEBUG - http://127.0.0.1:7890 "GET http://httpbin.org/cookies HTTP/1.1" 200 20
+2022-09-27 21:20:11,353 - root - INFO - 返回信息:
+{
+  "cookies": {}
+}
+
+2022-09-27 21:20:11,353 - root - INFO - cookie状态不保存场景

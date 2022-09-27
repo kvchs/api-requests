@@ -1,0 +1,4 @@
+login_data:
+    json:
+        username: "user"
+        password: "pass"

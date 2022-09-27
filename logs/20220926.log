@@ -1,0 +1,513 @@
+2022-09-26 18:32:17,690 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-26 18:32:19,207 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-26 18:32:30,693 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-26 18:32:32,376 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-26 18:36:57,811 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-26 18:36:59,742 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-26 18:36:59,743 - root - INFO - 返回信息:{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-26 18:37:31,125 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-26 18:37:32,651 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-26 18:37:32,652 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-26 18:38:28,528 - root - INFO - 接口请求地址:https://httpbin.org/basic-auth/user/pass
+2022-09-26 18:38:28,528 - root - INFO - 接口请求方式:GET
+2022-09-26 18:39:19,929 - root - INFO - 接口请求地址:https://httpbin.org/basic-auth/user/pass
+2022-09-26 18:39:19,929 - root - INFO - 接口请求方式:GET
+2022-09-26 18:41:22,863 - root - INFO - 接口请求地址:https://httpbin.org/basic-auth/user/pass
+2022-09-26 18:41:22,863 - root - INFO - 接口请求方式:GET
+2022-09-26 18:41:43,353 - root - INFO - 接口请求地址:https://httpbin.org/basic-auth/user/pass
+2022-09-26 18:41:43,354 - root - INFO - 接口请求方式:GET
+2022-09-26 18:43:07,606 - root - INFO - 接口请求地址:https://httpbin.org/basic-auth/user/pass
+2022-09-26 18:43:07,607 - root - INFO - 接口请求方式:GET
+2022-09-26 18:43:36,153 - root - INFO - 接口请求地址:https://httpbin.org/basic-auth/user/pass
+2022-09-26 18:43:36,153 - root - INFO - 接口请求方式:GET
+2022-09-26 18:44:27,517 - root - INFO - 接口请求地址:https://httpbin.org/basic-auth/user/pass
+2022-09-26 18:44:27,518 - root - INFO - 接口请求方式:GET
+2022-09-26 18:49:33,456 - root - INFO - 接口请求地址:https://httpbin.org/basic-auth/user/pass
+2022-09-26 18:49:33,456 - root - INFO - 接口请求方式:GET
+2022-09-26 18:49:33,510 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-26 18:49:35,342 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-26 18:49:35,343 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-26 18:50:08,229 - root - INFO - 接口请求地址:https://httpbin.org/basic-auth/user/pass
+2022-09-26 18:50:08,229 - root - INFO - 接口请求方式:GET
+2022-09-26 18:51:44,394 - root - INFO - 接口请求地址:https://httpbin.org/basic-auth/user/pass
+2022-09-26 18:51:44,394 - root - INFO - 接口请求方式:GET
+2022-09-26 18:53:36,134 - root - INFO - 接口请求地址:https://httpbin.org/basic-auth/user/pass
+2022-09-26 18:53:36,134 - root - INFO - 接口请求方式:GET
+2022-09-26 18:53:36,135 - root - INFO - 接口请求Header:{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-26 18:53:36,135 - root - INFO - 接口请求data参数:"DDD"
+2022-09-26 18:53:36,168 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-26 18:53:37,654 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-26 18:53:37,655 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-26 18:54:12,033 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-26 18:54:12,033 - root - INFO - 接口请求方式: GET
+2022-09-26 18:54:12,034 - root - INFO - 接口请求Header: {
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-26 18:54:12,034 - root - INFO - 接口请求data参数: "DDD"
+2022-09-26 18:54:12,062 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-26 18:54:14,078 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-26 18:54:14,079 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-26 18:54:31,545 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-26 18:54:31,546 - root - INFO - 接口请求方式: GET
+2022-09-26 18:54:31,546 - root - INFO - 接口请求Header:
+ {
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-26 18:54:31,547 - root - INFO - 接口请求data参数: "DDD"
+2022-09-26 18:54:31,559 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-26 18:54:33,115 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-26 18:54:33,116 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-26 18:55:01,633 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-26 18:55:01,634 - root - INFO - 接口请求方式: GET
+2022-09-26 18:55:01,634 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-26 18:55:01,634 - root - INFO - 接口请求data参数:
+"DDD"
+2022-09-26 18:55:01,646 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-26 18:55:03,749 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-26 18:55:03,750 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-26 18:55:20,172 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-26 18:55:20,173 - root - INFO - 接口请求方式: GET
+2022-09-26 18:55:20,174 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-26 18:55:20,174 - root - INFO - 接口请求data参数:
+"DDD"
+2022-09-26 18:55:20,201 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-26 18:55:21,843 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-26 18:55:21,845 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-26 18:55:46,856 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-26 18:55:46,856 - root - INFO - 接口请求方式: GET
+2022-09-26 18:55:46,857 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-26 18:55:46,857 - root - INFO - 接口请求data参数:
+"DDD"
+2022-09-26 18:55:46,857 - root - INFO - 接口请求json参数:
+null
+2022-09-26 18:55:46,872 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-26 18:55:48,617 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-26 18:55:48,618 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-26 18:56:01,118 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-26 18:56:01,118 - root - INFO - 接口请求方式: GET
+2022-09-26 18:56:01,119 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-26 18:56:01,119 - root - INFO - 接口请求data参数:
+"DDD"
+2022-09-26 18:56:01,131 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-26 18:56:02,886 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-26 18:56:02,887 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-26 19:23:09,115 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-26 19:23:09,116 - root - INFO - 接口请求方式: GET
+2022-09-26 19:23:09,116 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-26 19:23:09,116 - root - INFO - 接口请求data参数:
+"DDD"
+2022-09-26 19:23:09,155 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-26 19:23:11,074 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-26 19:23:11,075 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-26 19:23:21,995 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-26 19:23:21,996 - root - INFO - 接口请求方式: GET
+2022-09-26 19:23:21,996 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-26 19:23:21,996 - root - INFO - 接口请求data参数:
+"DDD"
+2022-09-26 19:23:22,009 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-26 19:23:23,595 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-26 19:23:23,596 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-26 19:23:46,974 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-26 19:23:46,975 - root - INFO - 接口请求方式: GET
+2022-09-26 19:23:46,975 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-26 19:23:46,975 - root - INFO - 接口请求data参数:
+"DDD"
+2022-09-26 19:23:47,064 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-26 19:23:49,152 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-26 19:23:49,153 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-26 19:24:46,602 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-26 19:24:46,603 - root - INFO - 接口请求方式: GET
+2022-09-26 19:24:46,603 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-26 19:24:46,647 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-26 19:25:22,502 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-26 19:25:22,503 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-26 19:25:42,815 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-26 19:25:42,815 - root - INFO - 接口请求方式: GET
+2022-09-26 19:25:42,816 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-26 19:25:42,841 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-26 19:25:44,732 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-26 19:25:44,733 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-26 19:26:34,751 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-26 19:26:34,751 - root - INFO - 接口请求方式: GET
+2022-09-26 19:26:34,752 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-26 19:26:34,793 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-26 19:26:37,060 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-26 19:26:37,061 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-26 19:52:12,806 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-26 19:52:12,806 - root - INFO - 接口请求方式: GET
+2022-09-26 19:52:12,806 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-26 19:52:12,830 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-26 19:52:15,002 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-26 19:52:15,003 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-26 19:53:00,753 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-26 19:53:00,753 - root - INFO - 接口请求方式: GET
+2022-09-26 19:53:00,753 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-26 19:53:00,780 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-26 19:53:02,421 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-26 19:53:02,422 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-26 19:54:51,207 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-26 19:54:51,207 - root - INFO - 接口请求方式: GET
+2022-09-26 19:54:51,207 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-26 19:54:51,234 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-26 19:54:53,106 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-26 19:54:53,107 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-26 20:13:34,990 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-26 20:13:34,991 - root - INFO - 接口请求方式: GET
+2022-09-26 20:13:34,991 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-26 20:13:35,012 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-26 20:13:37,527 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-26 20:13:37,529 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-26 20:13:59,993 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-26 20:13:59,993 - root - INFO - 接口请求方式: GET
+2022-09-26 20:13:59,993 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-26 20:14:00,005 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-26 20:14:01,815 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-26 20:14:01,816 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-26 21:45:14,817 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-26 21:45:14,817 - root - INFO - 接口请求方式: GET
+2022-09-26 21:45:14,817 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-26 21:45:14,836 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-26 21:45:17,425 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-26 21:45:17,426 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-26 22:52:43,131 - root - INFO - 接口请求地址: https://httpbin.org/post
+2022-09-26 22:52:43,132 - root - INFO - 接口请求方式: POST
+2022-09-26 22:52:43,133 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-26 22:52:43,133 - root - INFO - 接口请求data参数:
+{
+    "key": "value"
+}
+2022-09-26 22:52:43,154 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-26 22:52:45,505 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "POST /post HTTP/1.1" 200 480
+2022-09-26 22:52:45,506 - root - INFO - 返回信息:
+{
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "key": "value"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Content-Length": "9", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-requests/2.28.1", 
+    "X-Amzn-Trace-Id": "Root=1-6331bcbd-1a321d5e1df9c82111a216f3"
+  }, 
+  "json": null, 
+  "origin": "203.218.252.91", 
+  "url": "https://httpbin.org/post"
+}
+
+2022-09-26 22:53:13,427 - root - INFO - 接口请求地址: https://httpbin.org/post
+2022-09-26 22:53:13,427 - root - INFO - 接口请求方式: POST
+2022-09-26 22:53:13,427 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-26 22:53:13,427 - root - INFO - 接口请求data参数:
+{
+    "key": "value"
+}
+2022-09-26 22:53:13,441 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-26 22:53:15,790 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "POST /post HTTP/1.1" 200 480
+2022-09-26 22:53:15,791 - root - INFO - 返回信息:
+{
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "key": "value"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Content-Length": "9", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-requests/2.28.1", 
+    "X-Amzn-Trace-Id": "Root=1-6331bcdb-5e8035a679cf7e383edbf459"
+  }, 
+  "json": null, 
+  "origin": "203.218.252.91", 
+  "url": "https://httpbin.org/post"
+}
+
+2022-09-26 22:54:43,711 - root - INFO - 接口请求地址: https://httpbin.org/post
+2022-09-26 22:54:43,711 - root - INFO - 接口请求方式: POST
+2022-09-26 22:54:43,711 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-26 22:54:43,711 - root - INFO - 接口请求data参数:
+{
+    "key": "value"
+}
+2022-09-26 22:54:43,778 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-26 22:54:45,366 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "POST /post HTTP/1.1" 200 480
+2022-09-26 22:54:45,367 - root - INFO - 返回信息:
+{
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "key": "value"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Content-Length": "9", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-requests/2.28.1", 
+    "X-Amzn-Trace-Id": "Root=1-6331bd35-144125176e54d7b7007a5e6c"
+  }, 
+  "json": null, 
+  "origin": "203.218.252.91", 
+  "url": "https://httpbin.org/post"
+}
+
+2022-09-26 22:55:49,352 - root - INFO - 接口请求地址: https://httpbin.org/post
+2022-09-26 22:55:49,353 - root - INFO - 接口请求方式: POST
+2022-09-26 22:55:49,353 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-26 22:55:49,353 - root - INFO - 接口请求data参数:
+{
+    "key": "value"
+}
+2022-09-26 22:55:49,384 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-26 22:55:51,362 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "POST /post HTTP/1.1" 200 480
+2022-09-26 22:55:51,363 - root - INFO - 返回信息:
+{
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "key": "value"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Content-Length": "9", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-requests/2.28.1", 
+    "X-Amzn-Trace-Id": "Root=1-6331bd77-46fc310f507c0bc45998e195"
+  }, 
+  "json": null, 
+  "origin": "203.218.252.91", 
+  "url": "https://httpbin.org/post"
+}
+
+2022-09-26 22:55:57,784 - root - INFO - 接口请求地址: https://httpbin.org/basic-auth/user/pass
+2022-09-26 22:55:57,784 - root - INFO - 接口请求方式: GET
+2022-09-26 22:55:57,784 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-26 22:55:57,794 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): httpbin.org:443
+2022-09-26 22:55:59,311 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "GET /basic-auth/user/pass HTTP/1.1" 200 47
+2022-09-26 22:55:59,312 - root - INFO - 返回信息:
+{
+  "authenticated": true, 
+  "user": "user"
+}
+
+2022-09-26 22:55:59,315 - root - INFO - 接口请求地址: https://httpbin.org/post
+2022-09-26 22:55:59,315 - root - INFO - 接口请求方式: POST
+2022-09-26 22:55:59,315 - root - INFO - 接口请求Header:
+{
+    "content-type": "application/json;charset=UTF-8"
+}
+2022-09-26 22:55:59,316 - root - INFO - 接口请求data参数:
+{
+    "key": "value"
+}
+2022-09-26 22:55:59,661 - urllib3.connectionpool - DEBUG - https://httpbin.org:443 "POST /post HTTP/1.1" 200 480
+2022-09-26 22:55:59,662 - root - INFO - 返回信息:
+{
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "key": "value"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Content-Length": "9", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-requests/2.28.1", 
+    "X-Amzn-Trace-Id": "Root=1-6331bd7f-3e05f4422f11f58f7297d733"
+  }, 
+  "json": null, 
+  "origin": "203.218.252.91", 
+  "url": "https://httpbin.org/post"
+}
+
