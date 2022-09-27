@@ -60,3 +60,5 @@ allure serve output/result
 
 ```
 参考：https://blog.csdn.net/weixin_39891694/article/details/110889605
+### 环境依赖
+![img.png](img/img.png)
